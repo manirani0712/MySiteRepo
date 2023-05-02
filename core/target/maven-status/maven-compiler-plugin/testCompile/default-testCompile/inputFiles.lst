@@ -1,6 +1,6 @@
-/Users/rohitchauhan/Documents/1 AEM/mysiterepo/core/src/test/java/com/mysite/core/filters/LoggingFilterTest.java
-/Users/rohitchauhan/Documents/1 AEM/mysiterepo/core/src/test/java/com/mysite/core/testcontext/AppAemContext.java
-/Users/rohitchauhan/Documents/1 AEM/mysiterepo/core/src/test/java/com/mysite/core/listeners/SimpleResourceListenerTest.java
-/Users/rohitchauhan/Documents/1 AEM/mysiterepo/core/src/test/java/com/mysite/core/schedulers/SimpleScheduledTaskTest.java
-/Users/rohitchauhan/Documents/1 AEM/mysiterepo/core/src/test/java/com/mysite/core/servlets/SimpleServletTest.java
-/Users/rohitchauhan/Documents/1 AEM/mysiterepo/core/src/test/java/com/mysite/core/models/HelloWorldModelTest.java
+/Users/rohitchauhan/Documents/AEM/MySiteRepo/core/src/test/java/com/mysite/core/models/HelloWorldModelTest.java
+/Users/rohitchauhan/Documents/AEM/MySiteRepo/core/src/test/java/com/mysite/core/servlets/SimpleServletTest.java
+/Users/rohitchauhan/Documents/AEM/MySiteRepo/core/src/test/java/com/mysite/core/schedulers/SimpleScheduledTaskTest.java
+/Users/rohitchauhan/Documents/AEM/MySiteRepo/core/src/test/java/com/mysite/core/filters/LoggingFilterTest.java
+/Users/rohitchauhan/Documents/AEM/MySiteRepo/core/src/test/java/com/mysite/core/testcontext/AppAemContext.java
+/Users/rohitchauhan/Documents/AEM/MySiteRepo/core/src/test/java/com/mysite/core/listeners/SimpleResourceListenerTest.java
