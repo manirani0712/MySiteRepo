@@ -1,0 +1,11 @@
+org/apache/sling/scripting/sightly/apps/mysite/components/helloworld/helloworld__002e__html.class
+org/apache/sling/scripting/sightly/apps/mysite/components/student__002d__info__002d__simple/student__002d__info__002d__simple__002e__html.class
+org/apache/sling/scripting/sightly/apps/mysite/components/xfpage/customheaderlibs__002e__html.class
+org/apache/sling/scripting/sightly/apps/mysite/components/xfpage/customfooterlibs__002e__html.class
+org/apache/sling/scripting/sightly/apps/mysite/components/usergroups/usergroups__002e__html.class
+org/apache/sling/scripting/sightly/apps/mysite/components/student__002d__info__002d__multi/student__002d__info__002d__multi__002e__html.class
+org/apache/sling/scripting/sightly/apps/mysite/components/osgiconfigs/osgiconfigs__002e__html.class
+org/apache/sling/scripting/sightly/apps/mysite/components/page/customfooterlibs__002e__html.class
+org/apache/sling/scripting/sightly/apps/mysite/components/xfpage/content__002e__html.class
+org/apache/sling/scripting/sightly/apps/mysite/components/student__002d__info__002d__multi__002d__no__002d__compo/student__002d__info__002d__multi__002d__no__002d__compo__002e__html.class
+org/apache/sling/scripting/sightly/apps/mysite/components/page/customheaderlibs__002e__html.class

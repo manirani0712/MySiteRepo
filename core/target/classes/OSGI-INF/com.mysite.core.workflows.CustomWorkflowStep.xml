@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mysite.core.workflows.CustomWorkflowStep" immediate="true">
+  <property name="process.label" type="String" value=" My custom Process Step"/>
+  <property name="service.vendor" type="String" value="My Site"/>
+  <property name="service.description" type="String" value="My Custom site"/>
+  <service>
+    <provide interface="com.day.cq.workflow.exec.WorkflowProcess"/>
+  </service>
+  <implementation class="com.mysite.core.workflows.CustomWorkflowStep"/>
+</scr:component>

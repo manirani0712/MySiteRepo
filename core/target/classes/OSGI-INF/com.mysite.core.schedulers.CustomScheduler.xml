@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mysite.core.schedulers.CustomScheduler" configuration-policy="require" immediate="true" activate="activate" deactivate="deactivate" modified="modified">
+  <property name="schedulerName" type="String" value="Custom Sling Scheduler Configuration"/>
+  <property name="enabled" type="Boolean" value="false"/>
+  <property name="cronExpression" type="String" value="0 * * * * ?"/>
+  <property name="customParameter" type="String" value="AEM Scheduler Demo"/>
+  <service>
+    <provide interface="com.mysite.core.schedulers.CustomScheduler"/>
+  </service>
+  <reference name="scheduler" interface="org.apache.sling.commons.scheduler.Scheduler" field="scheduler"/>
+  <implementation class="com.mysite.core.schedulers.CustomScheduler"/>
+</scr:component>

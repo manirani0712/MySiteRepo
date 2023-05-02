@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.mysite.core.models.impl.OSGIConfigImpl$ServiceConfig">
+  <OCD id="com.mysite.core.models.impl.OSGIConfigImpl$ServiceConfig" name="SurgeSoftware OSGI Configuration" description="">
+    <AD id="getServiceName" type="String" name="Service Name" description="Enter the Service Name" default="Surge\ Service"/>
+    <AD id="getServiceCount" type="Integer" name="Service Count" description="Count the service" default="5"/>
+    <AD id="isLiveData" type="Boolean" name="Live Data" description="Check this to get live data" default="true"/>
+    <AD id="getRunModes" type="String" name="Run Modes" description="Select the Run Modes" default="both">
+      <Option label="Author" value="author"/>
+      <Option label="Publish" value="publish"/>
+      <Option label="Both" value="both"/>
+    </AD>
+  </OCD>
+  <Designate pid="com.mysite.core.models.impl.OSGIConfigImpl">
+    <Object ocdref="com.mysite.core.models.impl.OSGIConfigImpl$ServiceConfig"/>
+  </Designate>
+</metatype:MetaData>
